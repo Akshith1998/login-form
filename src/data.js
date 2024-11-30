@@ -1,0 +1,38 @@
+export const formData = [
+  {
+    id: "name",
+    label: "Name",
+    type: "text",
+    value: "",
+    placeholder: "Name",
+    isError: false,
+    errorMessage: "Please fill the name",
+  },
+  {
+    id: "email",
+    label: "Email",
+    type: "email",
+    value: "",
+    placeholder: "Email",
+    isError: false,
+    errorMessage: "Please fill the email",
+  },
+  {
+    id: "password",
+    label: "Password",
+    type: "password",
+    value: "",
+    placeholder: "Password",
+    isError: false,
+    errorMessage: "Please fill the password",
+  },
+  {
+    id: "confirmPassword",
+    label: "Confirm Password",
+    type: "password",
+    value: "",
+    placeholder: "Confirm Password",
+    isError: false,
+    errorMessage: "Please fill the confirm password",
+  },
+];
